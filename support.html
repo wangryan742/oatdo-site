@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OatDo 支援</title>
+<style>
+  :root {
+    --bg: #FAF7F0;
+    --card: #FFFDF8;
+    --text: #3A332B;
+    --muted: #7A7167;
+    --line: #E8E0D3;
+    --accent: #6B5B47;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1C1917;
+      --card: #24211E;
+      --text: #EDE7DC;
+      --muted: #A29A8E;
+      --line: #35302A;
+      --accent: #C9B99C;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 48px 16px 80px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Noto Sans TC", sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 40px 32px;
+  }
+  h1 { font-size: 28px; margin: 0 0 4px; letter-spacing: -0.02em; }
+  h2 { font-size: 19px; margin: 36px 0 10px; letter-spacing: -0.01em; }
+  .meta { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+  p { margin: 10px 0; }
+  ul { padding-left: 22px; margin: 10px 0; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  .contact {
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin: 20px 0 8px;
+  }
+  .q { font-weight: 600; margin: 20px 0 4px; }
+  footer {
+    max-width: 680px;
+    margin: 24px auto 0;
+    color: var(--muted);
+    font-size: 13px;
+    text-align: center;
+  }
+  @media (max-width: 480px) {
+    main { padding: 28px 20px; border-radius: 12px; }
+    h1 { font-size: 24px; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>OatDo 支援</h1>
+  <p class="meta">有任何問題或建議，都歡迎直接來信。</p>
+
+  <div class="contact">
+    <p style="margin:0"><strong>聯絡信箱</strong><br>
+    <a href="mailto:wangryan742@gmail.com">wangryan742@gmail.com</a></p>
+    <p style="margin:8px 0 0; color:var(--muted); font-size:14px">通常會在 2 到 3 個工作天內回覆。</p>
+  </div>
+
+  <h2>常見問題</h2>
+
+  <p class="q">我的資料會存在哪裡？</p>
+  <p>所有資料都儲存在你的裝置與你自己的 iCloud 帳戶中。我們沒有伺服器，也無法讀取你的內容。詳情請見<a href="/privacy">隱私權政策</a>。</p>
+
+  <p class="q">換手機後資料會不見嗎？</p>
+  <p>只要兩台裝置登入同一個 Apple 帳戶並啟用 iCloud，資料會自動同步。若未啟用 iCloud，資料僅存在原本的裝置上。建議也定期在設定中匯出 JSON 備份。</p>
+
+  <p class="q">沒有網路可以使用嗎？</p>
+  <p>可以。OatDo 所有功能都能離線使用，恢復連線後才會同步。</p>
+
+  <p class="q">如何取消訂閱？</p>
+  <p>訂閱由 App Store 管理。請開啟「設定」，點選最上方的 Apple 帳戶，選擇「訂閱項目」，找到 OatDo 後即可取消。取消後仍可使用到目前訂閱期結束。</p>
+
+  <p class="q">我換了手機，付費紀錄還在嗎？</p>
+  <p>在付費頁面點選「還原購買」即可恢復，前提是使用同一個 Apple 帳戶。</p>
+
+  <p class="q">免費版和 Pro 版差在哪裡？</p>
+  <p>行事曆、待辦看板與基本日記都可以免費使用，免費版在待辦、習慣、每日行程、週期任務與筆記本數量上有上限。Pro 版解除這些上限，並解鎖成效報表、提醒、桌面小工具，以及全部主題、色調與字體。</p>
+
+  <p class="q">要求退費該找誰？</p>
+  <p>退費由 Apple 處理，請至 <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> 提出申請。</p>
+
+  <p class="q">我有功能建議</p>
+  <p>非常歡迎，OatDo 由一個人開發，每一封信都會親自讀。</p>
+
+  <h2>相關連結</h2>
+  <ul>
+    <li><a href="/privacy">隱私權政策</a></li>
+    <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">使用條款</a></li>
+  </ul>
+
+</main>
+<footer>© 2026 OatDo</footer>
+</body>
+</html>
